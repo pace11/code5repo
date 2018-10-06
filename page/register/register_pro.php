@@ -39,9 +39,6 @@ $desc_metode = addslashes($_POST['deskripsi_metode']);
             $mail->SMTPSecure = 'tls';                            
             $mail->Port = 587;                                    
 
-
-            $mail->addAttachment('img/registrasi.jpg');
-
             //Recipients
             $mail->setFrom(base64_decode($abx), 'Code5');
             $mail->AddAddress($email);
