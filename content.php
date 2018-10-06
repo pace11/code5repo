@@ -4,11 +4,12 @@
 
   if ($page == "dashboard") include("page/dashboard.php");
 
-  elseif ($page == "register") include("page/register.php");
+  elseif ($page == "register") include("page/register/register.php");
+  elseif ($page == "register_pro") include("page/register/register_pro.php");
+  elseif ($page == "register_success") include("page/register/register_success.php");
+
   elseif ($page == "masuk") include("page/masuk.php");
   elseif ($page == "keluar") include("page/keluar.php");
-  elseif ($page == "livechat") include("page/chat/chat.php");
-  elseif ($page == "halo") include("page/halo/halo.php");
 
   else echo"Konten tidak ada";
 ?>
