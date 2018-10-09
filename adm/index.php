@@ -15,20 +15,20 @@
   <title>CodeFive | Administrasi</title>
   <link rel="icon" href="src/img/icon_dasar.ico" type="image/x-icon">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="stylesheet" href="component/src/bower_components/bootstrap-daterangepicker/daterangepicker.css">
-  <link rel="stylesheet" href="component/src/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
-  <link rel="stylesheet" href="component/src/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
-  <link rel="stylesheet" href="component/src/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
-  <link rel="stylesheet" href="component/src/bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="component/src/bower_components/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="component/src/bower_components/Ionicons/css/ionicons.min.css">
-  <link rel="stylesheet" href="component/src/bower_components/jvectormap/jquery-jvectormap.css">
+  <link rel="stylesheet" href="src/bower_components/bootstrap-daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="src/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="src/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="src/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="src/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="src/bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="src/bower_components/jvectormap/jquery-jvectormap.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="component/src/dist/css/AdminLTE.min.css">
-  <link rel="stylesheet" href="component/src/dist/css/skins/_all-skins.min.css">
-  <script type="text/javascript" src="component/src/bower_components/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="component/src/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="component/src/bower_components/jquery/src/ajax/script.js"></script>
+  <link rel="stylesheet" href="src/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="src/dist/css/skins/_all-skins.min.css">
+  <script type="text/javascript" src="src/bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="src/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="src/bower_components/jquery/src/ajax/script.js"></script>
 
   <!-- Google Font -->
   <link rel="stylesheet" 
@@ -65,7 +65,7 @@
 
   <!-- Isi Web -->
   <div class="content-wrapper">
-    <?php include "konten.php"; ?>
+    <?php include "content.php"; ?>
   </div>
   <!-- Isi Web -->
 
@@ -78,27 +78,27 @@
 </div>
 <!-- ./wrapper -->
 <!-- jQuery 3 -->
-<script src="component/src/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="component/src/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="component/src/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
-<script src="component/src/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
-<script src="component/src/bower_components/fastclick/lib/fastclick.js"></script>
-<script src="component/src/dist/js/adminlte.min.js"></script>
-<script src="component/src/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
-<script src="component/src/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="component/src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<script src="component/src/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-<script src="component/src/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<script src="component/src/bower_components/chart.js/Chart.js"></script>
-<script src="component/src/bower_components/select2/dist/js/select2.full.min.js"></script>
-<script src="component/src/plugins/input-mask/jquery.inputmask.js"></script>
-<script src="component/src/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
-<script src="component/src/plugins/input-mask/jquery.inputmask.extensions.js"></script>
-<script src="component/src/bower_components/moment/min/moment.min.js"></script>
-<script src="component/src/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
-<script src="component/src/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<script src="component/src/dist/js/pages/dashboard2.js"></script>
-<script src="component/src/dist/js/demo.js"></script>
+<script src="src/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="src/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="src/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="src/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="src/bower_components/fastclick/lib/fastclick.js"></script>
+<script src="src/dist/js/adminlte.min.js"></script>
+<script src="src/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+<script src="src/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="src/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="src/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="src/bower_components/chart.js/Chart.js"></script>
+<script src="src/bower_components/select2/dist/js/select2.full.min.js"></script>
+<script src="src/plugins/input-mask/jquery.inputmask.js"></script>
+<script src="src/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+<script src="src/plugins/input-mask/jquery.inputmask.extensions.js"></script>
+<script src="src/bower_components/moment/min/moment.min.js"></script>
+<script src="src/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="src/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="src/dist/js/pages/dashboard2.js"></script>
+<script src="src/dist/js/demo.js"></script>
 
 <script>
   $(function () {
