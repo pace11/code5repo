@@ -5,9 +5,9 @@
                 <div class="card">
                     <div class="card-body">
                         <button class="btn btn-success">Pendaftaran Berhasil</button>
-                        <p class="card-text">pendaftaran anda berhasil dilakukan. Kami akan mengirimkan email konfirmasi dalam waktu 5 menit dari sekarang.
-                        Silahkan periksa email masuk berisikan konfirmasi pendaftaran. jika masih belum menerima email konfirmasi pendaftaran, silahkan menghubungi kami via telepon di <b>082248080870</b> 
-                        ataupun via email <b>codefive65@gmail.com</b>
+                        <p class="card-text">
+                            TerimaKasih telah melakukan pendaftaran. Konfirmasi Pendaftaran anda telah kami kirimkan di Email yang anda gunakan untuk
+                            mendaftar di proses sebelumnya. Silahkan mengecek Email anda.
                         </p>
                     </div>
                     <ul class="list-group list-group-flush">

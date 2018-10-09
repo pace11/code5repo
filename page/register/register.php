@@ -23,7 +23,7 @@
             <form action="?page=register_pro" method="post">
                 <div class="form-group">
                     <input type="hidden" name="id_registrasi" value="<?= $kode_otomatis ?>">
-                    <input type="text" class="form-control" name="nama_lengkap" autocomplete="off" placeholder="isikan nama ..." required/>
+                    <input type="text" class="valid form-control" name="nama_lengkap" autocomplete="off" placeholder="isikan nama ..." required/>
                 </div>
                 <div class="form-group">
                     <input type="email" class="form-control" name="email" autocomplete="off" placeholder="isikan alamat email ..." required/>
