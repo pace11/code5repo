@@ -15,7 +15,10 @@
                             <ul>
                                 <?php include("page/register/register_detail.php"); ?>
                             </ul>
-                        </li> 
+                            <div class="float-right">
+                                <a href="cetak/cetak.php?no_reg=<?= $_GET['no_reg']; ?>" target="_blank" class="btn btn-danger"><i class="fa fa-print"></i> Cetak</a>
+                            </div>
+                        </li>
                     </ul>
                     <div class="card-body">
                         <a href="index.php" class="btn btn-info">Kembali</a>

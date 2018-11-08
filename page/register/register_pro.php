@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
-$mail = new PHPMailer(true);
+
 
 $id_reg      = $_POST['id_registrasi'];
 $nama        = $_POST['nama_lengkap'];
@@ -24,12 +24,10 @@ $desc_metode = addslashes($_POST['deskripsi_metode']);
             desc_ta     = '$desc_ta',
             desc_metode = '$desc_metode'
             ") or die (mysqli_error($conn));
-
-    $regis = mysqli_query($conn, "SELECT * FROM tbl_registration");
-    $hitregis = mysqli_num_rows($regis);    
-
+   
     if ($input) {
-
+        
+        $mail = new PHPMailer(true);
         try {
 
             $abx = 'Y29kZWZpdmU2NUBnbWFpbC5jb20=';
